@@ -1,0 +1,42 @@
+.menu-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #6F4E37;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 150px;
+}
+
+.menu-item h3 {
+  margin: 10px 10px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: start;
+}
+
+.menu-item p {
+  margin: 5px 10px;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: start;
+}
+.menu-item .desc {
+  font-size: 10px;
+}
+
+.menu-item button {
+  background-color: #ffffff;
+  color:#FF8F41;
+  border: none;
+  margin-left: 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90px;
+}

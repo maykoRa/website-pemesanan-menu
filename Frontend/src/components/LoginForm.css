@@ -1,0 +1,105 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../assets/bglogin.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-page .login-form {
+  border-radius: 15px;
+  text-align: center;
+  height: 350px;
+  color: #ffffff;
+  width: 320px;
+  display: block;
+  background-color: rgba(172, 172, 172, 0.5);
+}
+
+
+.login-page .login-form form {
+  border-radius: 10px;
+  text-align: center;
+  width: 320px;
+}
+
+.login-page .login-form h2 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fffcfc;
+  border: none;
+}
+
+.login-page .input-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+
+.login-page .input-text input {
+  font-size: 20px;
+  border-radius: 0;
+  justify-content: center;
+  width: 30px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  text-align: left;
+}
+
+
+.login-page .input-text ::placeholder {
+  color: #ffffff;
+
+}
+
+
+.login-page .input-text i {
+  color: #ffffff;
+  position: absolute;
+  font-size: 20px;
+  color: #ccc;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.login-page .input-text input[type="email"],
+.login-page .input-text input[type="password"] {
+  padding-left: 30px;
+}
+
+
+.login-page button {
+  background-color: #6F4E37;
+  width: 70%;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login-page p {
+  margin-top: 10px;
+}
+
+.login-page p a {
+  color: #FF8F41;
+  text-decoration: none;
+}
+
+.login-page p a:hover {
+  text-decoration: underline;
+}

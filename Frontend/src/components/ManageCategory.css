@@ -1,0 +1,141 @@
+.manage-category {
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.manage-category h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.manage-category .add-button {
+    justify-self: end;
+    width: 80px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointe;
+    font-size: 20px;
+}
+
+
+
+.manage-category .btn-edit {
+    background-color: orange;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 5%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.manage-category .btn-trash {
+    background-color: red;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 5%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.manage-category table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.manage-category th,
+.manage-category td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.manage-category th {
+    background-color: #D9D9D9;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 60%;
+    min-width: 600px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.input-full {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+input,
+select {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.modal-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 1px solid orange;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-close {
+    background-color: grey;
+    color: white;
+}
+
+.btn-add,
+.btn-save {
+    background-color: #5a3e36;
+    color: white;
+}

@@ -1,0 +1,72 @@
+.kitchen-page {
+    padding-top: 100px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.kitchen-page h2 {
+    color:  #5a3e36;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    border-color: #FF8F41;
+}
+
+
+.kitchen-page table {
+  border-collapse: collapse;
+  background-color: #ddd;
+  align-items: center;
+  justify-content: center;
+  }
+  
+.kitchen-page th, .kitchen-page td {
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000000;
+
+    
+}
+
+
+
+.kitchen-page .status.masuk-ke-dapur {
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+  background-color: #EFDA16;
+}
+
+.kitchen-page .status.pending {
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+}
+
+  
+.kitchen-page .btn-accept, .kitchen-page .btn-serve {
+    width: auto; 
+    border: none;
+    padding: 7%;
+    cursor: pointer;
+    display: flexbox; 
+    font-size: 10px;
+    color: black;
+  }
+  
+  .kitchen-page .btn-accept:disabled, .kitchen-page .btn-serve:disabled {
+    background-color: #ACACAC;
+    cursor: not-allowed;
+    color: black;
+  }

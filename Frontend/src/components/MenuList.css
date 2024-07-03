@@ -1,0 +1,21 @@
+h2 {
+  color: #6F4E37;
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  border-color: #FF8F41;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-list .menu-item {
+  margin-right: 20px;
+  padding: 0;
+  width: 230px;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+}

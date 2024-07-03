@@ -1,0 +1,32 @@
+.menu-category {
+  margin: 20px;
+}
+
+h2 {
+  display: flex;
+  color:  #6F4E37;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  border-color: orange;
+}
+
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6F4E37;
+  padding: 20px 50px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.categories a {
+  color: white;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 18px;
+}
+
+.categories a:hover {
+  text-decoration: underline;
+}

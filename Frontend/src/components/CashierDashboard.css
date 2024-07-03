@@ -1,0 +1,97 @@
+.cashier-page {
+    padding-top: 100px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.cashier-page h2 {
+    color: #5a3e36;
+    display: inline-block;
+    font-size: 30px;
+    border-bottom: 2px solid;
+    border-color: orange;
+}
+
+.cashier-page table {
+    border-collapse: collapse;
+    background-color: #ddd;
+    align-items: center;
+    justify-content: center;
+}
+
+.cashier-page th,
+.cashier-page td {
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.cashier-page button:disabled {
+    color: #ccc;
+}
+
+.cashier-page .status.dibayar {
+    padding: 10px;
+    border: none;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #4AEB30;
+    width: auto;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.cashier-page .status.pending {
+    padding: 10px;
+    border: none;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: transparent;
+    width: auto;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.cashier-page .btn-eye,
+.cashier-page .btn-edit,
+.cashier-page .btn-trash {
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 5%;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+
+.cashier-page .btn-edit.disabled i,
+.cashier-page .btn-trash.disabled i {
+    color: white;
+}
+
+
+.cashier-page .btn-edit.disabled,
+.cashier-page .btn-trash.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.cashier-page .btn-eye {
+    background-color: #418DFF;
+}
+
+.cashier-page .btn-edit {
+    background-color: orange;
+}
+
+
+.cashier-page .btn-trash {
+    background-color: red;
+}

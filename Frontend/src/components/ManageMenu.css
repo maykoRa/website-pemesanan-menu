@@ -1,0 +1,82 @@
+.manage-menu {
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 80px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px; 
+    padding: 10px;
+}
+
+.manage-menu h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border: none;
+}
+.manage-menu .status {
+    text-align: center; 
+    border-radius: 20px;
+    background-color: #4AEB30;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.manage-menu .add-button {
+    justify-self: end;
+    width: 80px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.manage-menu .btn-edit {
+    background-color: orange;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 5%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.manage-menu .btn-trash {
+    background-color: red;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 5%;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.manage-menu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.manage-menu th, .manage-menu td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.manage-menu th {
+    background-color: #D9D9D9;
+}
+
+.manage-menu td img {
+    width: 50px;
+    height: 50px;
+}
